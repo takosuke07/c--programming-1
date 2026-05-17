@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             dataGridView1 = new DataGridView();
-            bindingSource1 = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
@@ -43,10 +40,6 @@
             dataGridView1.Size = new Size(240, 150);
             dataGridView1.TabIndex = 0;
             // 
-            // bindingSource1
-            // 
-            bindingSource1.CurrentChanged += bindingSource1_CurrentChanged;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -56,13 +49,11 @@
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private DataGridView dataGridView1;
-        private BindingSource bindingSource1;
     }
 }
